@@ -115,3 +115,9 @@ Run the Django Project :
 ```bash
   py manage.py runserver
 ```
+
+## Create App
+
+```bash
+  py manage.py startapp members
+```
