@@ -153,6 +153,9 @@ Run the Django Project :
   py manage.py makemigrations appname
 ```
 
+```bash
+  py manage.py migrate
+```
 
 ## Create Super User
 
