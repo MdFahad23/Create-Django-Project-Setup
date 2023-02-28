@@ -121,3 +121,41 @@ Run the Django Project :
 ```bash
   py manage.py startapp members
 ```
+
+## Installed MySql Database
+
+```bash
+  pip install mysqlclient
+```
+
+## Database Connect Root Project    
+
+```bash
+  DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'DB_NAME',
+        'USER': 'DB_USER',
+        'PASSWORD': 'DB_PASSWORD',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}
+```
+
+## Django Migration
+
+```bash
+  py manage.py migrate
+```
+
+```bash
+  py manage.py makemigrations appname
+```
+
+
+## Create Super User
+
+```bash
+  python manage.py createsuperuser
+```
